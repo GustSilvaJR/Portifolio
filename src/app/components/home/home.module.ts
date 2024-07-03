@@ -6,6 +6,7 @@ import { HeaderComponent } from '../../shared/header/header.component';
 import { BtnPrimaryComponent } from '../../shared/btn-primary/btn-primary.component';
 import { MainSectionComponent } from 'src/app/shared/main-section/main-section.component';
 import { MainAnimationComponent } from 'src/app/shared/main-animation/main-animation.component';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { MainAnimationComponent } from 'src/app/shared/main-animation/main-anima
     MainAnimationComponent,
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    HttpClientModule,
   ],
 
   exports:[
