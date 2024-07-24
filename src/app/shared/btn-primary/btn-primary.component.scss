@@ -1,7 +1,9 @@
 .btn-primary{
   font-size: 16px;
-  font-weight: 500;
-  padding: 12px 20px;
+  font-weight: 600;
+  padding: 3.7px 6.17px 4.01px 6.17px;
+  line-height: 21.94px;
+  text-align: center;
 
   color: #DBFFFF;
   background: rgb(82,34,208);
@@ -9,4 +11,15 @@
 
   border: none;
   border-radius: 8px;
+
+  width: 207.58px;
+  height: 55.51px;
+
+  span{
+    font-size: 18px;
+    line-height: 21.94px;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+  }
+
 }
