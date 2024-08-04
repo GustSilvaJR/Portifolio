@@ -1,0 +1,43 @@
+#about_me {
+
+  color: #FFFFFF;
+
+  margin-top: 138px;
+  height: 600px;
+
+  .title-about {
+    font-family: "Montserrat", sans-serif;
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 40px;
+    letter-spacing: 0.04em;
+    margin-bottom: 33px;
+    margin-left: 18px;
+  }
+
+  p {
+    color: #E6E6E6;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 0.04em;
+  }
+}
+
+#content_about {
+  display: inline-flex;
+  flex-direction: row;
+  background-image: url("/assets/line.png");
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: auto 100%;
+  padding: 10px 0 10px 18.5px;
+}
+
+
+@media (min-width: 600px) {
+  #content_about {
+    padding: 10px 0 10px 25.5px;
+  }
+}

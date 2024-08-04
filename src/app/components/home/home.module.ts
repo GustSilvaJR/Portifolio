@@ -6,6 +6,7 @@ import { HeaderComponent } from '../../shared/header/header.component';
 import { BtnPrimaryComponent } from '../../shared/btn-primary/btn-primary.component';
 import { MainSectionComponent } from 'src/app/shared/main-section/main-section.component';
 import { MainAnimationComponent } from 'src/app/shared/main-animation/main-animation.component';
+import { AboutMeComponent } from '../about-me/about-me.component';
 
 @NgModule({
   declarations: [
@@ -14,15 +15,17 @@ import { MainAnimationComponent } from 'src/app/shared/main-animation/main-anima
     BtnPrimaryComponent,
     MainSectionComponent,
     MainAnimationComponent,
+    AboutMeComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
   ],
 
   exports:[
     HomeComponent,
     HeaderComponent,
-    BtnPrimaryComponent
+    BtnPrimaryComponent,
+    AboutMeComponent
   ],
 
   providers: [],
