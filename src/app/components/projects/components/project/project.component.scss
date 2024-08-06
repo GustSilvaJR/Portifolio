@@ -1,0 +1,51 @@
+.card {
+  font-family: "Montserrat", sans-serif;
+  color: black;
+  background-color: #F0F0F0;
+  width: 530px;
+  height: 229px;
+  border-radius: 1.85px;
+}
+
+.titleCard{
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 21.94px;
+}
+
+.cardSubtitle{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 15px;
+}
+
+.cardSubtitle span {
+  height: 19px;
+  width: 73px;
+  background-color: #8455FF;
+  margin-right: 10px; /* Espaçamento entre os elementos filhos */
+  margin-bottom: 3px;
+  font-size: 12px;
+  line-height: 19px;
+  letter-spacing: 0.12em;
+  text-align: center;
+  color: #DBFFFF;
+  padding: 5px 10px;
+}
+
+.cardSubtitle span:last-child {
+  margin-right: 0; /* Remove o espaçamento do último span */
+}
+
+.cardBody{
+  margin-top: 17px;
+
+  p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.04em;
+    color: #1F2626;
+  }
+}

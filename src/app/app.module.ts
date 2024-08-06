@@ -4,7 +4,9 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HomeModule } from './components/home/home.module';
-import { AboutMeComponent } from './components/about-me/about-me.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { HttpClientModule } from '@angular/common/http';
+
 
 @NgModule({
   declarations: [
@@ -15,6 +17,8 @@ import { AboutMeComponent } from './components/about-me/about-me.component';
     BrowserModule,
     AppRoutingModule,
     HomeModule,
+    BrowserAnimationsModule,
+    HttpClientModule
   ],
 
   providers: [],

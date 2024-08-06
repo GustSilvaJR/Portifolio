@@ -1,0 +1,15 @@
+<div class="project">
+  <mat-card class="card">
+    <mat-card-header>
+      <mat-card-title class="titleCard">{{ project.name | titlecase }}</mat-card-title>
+        <mat-card-subtitle class="cardSubtitle">
+          <span *ngFor="let technologie of technologies ">
+            {{ technologie }}
+          </span>
+        </mat-card-subtitle>
+    </mat-card-header>
+    <mat-card-content class="cardBody">
+      <p>{{project.description}}</p>
+    </mat-card-content>
+  </mat-card>
+</div>
