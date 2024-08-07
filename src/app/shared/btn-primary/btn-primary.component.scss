@@ -23,3 +23,15 @@
   }
 
 }
+
+.btn-primary:hover{
+  cursor: pointer;
+
+  background: darken(rgb(82,34,208), 6%);
+  background: linear-gradient(90deg, darken(rgb(82,34,208), 6%) 35%, darken(rgba(255,97,150,1), 6%) 100%);
+}
+
+.btn-primary:active{
+  background: darken(rgb(82,34,208), 10%);
+  background: linear-gradient(90deg, darken(rgb(82,34,208), 10%) 35%, darken(rgba(255,97,150,1), 10%) 100%);
+}

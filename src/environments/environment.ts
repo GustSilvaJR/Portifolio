@@ -1,3 +1,4 @@
 export const environment = {
-  baseGitApiUrl: ""
+  baseGitApiUrl: "",
+  githubPage: "https://github.com/GustSilvaJR"
 };

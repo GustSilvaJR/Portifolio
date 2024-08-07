@@ -7,4 +7,11 @@ import { Component } from '@angular/core';
 })
 export class MainSectionComponent {
 
+  donwloadCurr(): void{
+    const link = document.createElement('a');
+    link.href = 'assets/curriculo/curriculo.pdf';
+    link.download = 'curriculo.pdf';
+    link.click();
+  }
+
 }
